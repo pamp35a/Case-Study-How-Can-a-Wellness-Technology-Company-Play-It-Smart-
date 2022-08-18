@@ -72,3 +72,10 @@ library(janitor)
 
 Now I can import my dataset.
 
+# Importing Activity dataset, :
+
+Activity <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+head(Activity)
+colnames(Activity)
+str(Activity)
+
